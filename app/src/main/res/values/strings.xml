@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- App Name -->
+    <string name="app_name">Portfolio</string>
+
+    <!-- Main Options Menu -->
+    <string name="action_about">About</string>
+
+    <!-- Main Title -->
+    <string name="mainTitle">My App Portfolio</string>
+
+    <!-- Main Header -->
+    <string name="mainHeader">My Nanodegree Apps!</string>
+
+    <!-- Main Button Labels -->
+    <string name="spotifyStreamerAppTitle">SPOTIFY STREAMER</string>
+    <string name="scoresAppTitle">SCORES APP</string>
+    <string name="libraryAppTitle">LIBRARY APP</string>
+    <string name="buildItBiggerAppTitle">BUILD IT BIGGER</string>
+    <string name="xyzReaderAppTitle">XYZ READER</string>
+    <string name="capStoneLabel">CAPSTONE: MY OWN APP</string>
+
+    <!-- Toast Strings -->
+    <string name="buttonToastBegin">This button will launch my</string>
+    <string name="buttonToastEnd">!</string>
+    <string name="capstoneAppTitle">CAPSTONE APP</string>
+
+</resources>

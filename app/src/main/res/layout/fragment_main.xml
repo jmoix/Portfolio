@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/mainHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/headerStyle"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:text="@string/mainHeader"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/mainHeader"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/streamerButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/custom_button"
+            android:textColor="@android:color/white"
+            android:text="@string/spotifyStreamerAppTitle"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:id="@+id/scoresButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="@dimen/elementSeparation"
+            android:textColor="@android:color/white"
+            android:text="@string/scoresAppTitle"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:id="@+id/libraryButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="@dimen/elementSeparation"
+            android:textColor="@android:color/white"
+            android:text="@string/libraryAppTitle"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:id="@+id/builditButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="@dimen/elementSeparation"
+            android:textColor="@android:color/white"
+            android:text="@string/buildItBiggerAppTitle"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:id="@+id/xyzButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:layout_marginTop="@dimen/elementSeparation"
+            android:textColor="@android:color/white"
+            android:text="@string/xyzReaderAppTitle"
+            android:onClick="buttonClick"/>
+
+        <Button
+            android:id="@+id/capstoneButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_2"
+            android:layout_marginTop="@dimen/elementSeparation"
+            android:textColor="@android:color/white"
+            android:text="@string/capStoneLabel"
+            android:onClick="buttonClick"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
